@@ -1,6 +1,6 @@
 {
   "name": "livequery",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Discord bot used to fetch messages from Source servers.",
   "main": "livequery.js",
   "scripts": {
