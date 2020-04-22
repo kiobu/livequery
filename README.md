@@ -25,3 +25,7 @@ Setup is unnecessarily complicated until I streamline the process.
 ## Notes
 
 LiveQuery will constantly be updated until I decide it's good enough to be fully released. For now, whenever you start the bot, it will check to see if there is a new version of the bot available on GitHub.
+
+## Known Bugs
+
+- You get a JSON parse error whenever someone sends a message containing quotes ("").
