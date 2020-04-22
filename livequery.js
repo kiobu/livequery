@@ -59,13 +59,17 @@ client.on('ready', () => {
 
     // Fire Discord msg. event.
     LiveQuery.Listener.on('newField', (body) => {
-        const EMBED = new Discord.RichEmbed()
+        /*const EMBED = new Discord.RichEmbed()
             .setColor('#aaff00')
             .setTitle(body.svname)
             .addField("Player Name", body.plyname)
             .addField("Message", body.msg)
 
-        client.channels.get(client.config.channelID).send(EMBED)
+        client.channels.get(client.config.channelID).send(EMBED)*/
+        client.channels.get(client.config.channelID)
+            .send(
+                `**${body.svname}:** \`${body.plyname} says: "${body.msg}"\``
+            );
     })
 
 })
