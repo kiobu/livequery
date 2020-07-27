@@ -19,7 +19,7 @@ fetch('https://raw.githubusercontent.com/kiobu/livequery/master/package.json')
 )
         }
         if (compareVersions(json.version, require('../package.json').version) < 0) {
-            logger.error('!!! You are running a newer version of LiveQuery than what is on the GitHub. This most likely means that a bugged version out of the repo. You should reinstall LiveQuery: https://github.com/kiobu/livequery')
+            logger.error('!!! You are running a newer version of LiveQuery than what is on the GitHub. This most likely means that a bugged version was pulled from the repo. You should reinstall LiveQuery: https://github.com/kiobu/livequery')
         }
     })
 
