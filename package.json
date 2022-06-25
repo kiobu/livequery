@@ -32,7 +32,7 @@
     "compare-versions": "^3.6.0",
     "discord.js": "^11.5.1",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "yargs": "^15.3.1"
   }
 }
